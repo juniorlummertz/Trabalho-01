@@ -5,7 +5,7 @@ import Footer from "./Footer"
 import ListaAlunos from "./ListaAlunos";
 import Botao from "./Botao"
 import Alertas from "./Alertas"
-import Açoes from "./Açoes"
+import Acoes from "./Acoes"
 import Card from"./Card"
 function App() {
   const [count, setCount] = useState(0)
@@ -23,7 +23,7 @@ function App() {
       <Botao />
       <Footer /> {}
       <Alertas/>
-      <Açoes/>
+      <Acoes/>
       <Card titulo="Tarefa 1" descricao="Estudar React" />
       <Card titulo="Tarefa 2" descricao="Enviar trabalho no GitHub" />
       <Card titulo="Tarefa 3" descricao="fazer o versionamento de cada etapa concluida"/>
