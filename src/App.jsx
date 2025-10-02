@@ -1,34 +1,34 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
-
+import Header from "./Header"
+import Footer from "./Footer"
+import ListaAlunos from "./ListaAlunos";
+import Botao from "./Botao"
+import Alertas from "./Alertas"
+import Açoes from "./Açoes"
+import Card from"./Card"
 function App() {
   const [count, setCount] = useState(0)
 
   return (
+
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
+      <Header /> {}
+      
+      <h1>Mini Aplicação React - To-Do List</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        <p>Marcio Junior</p>
       </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
-    </>
+      <ListaAlunos />
+      <Botao />
+      <Footer /> {}
+      <Alertas/>
+      <Açoes/>
+      <Card titulo="Tarefa 1" descricao="Estudar React" />
+      <Card titulo="Tarefa 2" descricao="Enviar trabalho no GitHub" />
+      <Card titulo="Tarefa 3" descricao="fazer o versionamento de cada etapa concluida"/>
+      <Card titulo="Tarefa 4" descricao="enviar link do repositório do github com o arquivo README atualizado e print do projeto rodando"/>
+      </>
   )
 }
 
