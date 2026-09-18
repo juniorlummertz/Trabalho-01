@@ -1,24 +1,47 @@
-# React + Vite
-# Mini Aplicação React - To-Do List
+# TaskFlow — React Task Manager
 
-**Integrante**: Marcio Junior  
-**Matrícula**: XXXXX  
-**Curso**: ADS 2MA  
-**Tecnologias usadas**: React, Vite, Git, GitHub
+A responsive task management application built with React and Vite. TaskFlow lets users create tasks, assign priorities, filter by status, mark items as completed, and keep data between sessions with `localStorage`.
 
+## Features
 
+- Create and delete tasks
+- Set low, medium, or high priority
+- Mark tasks as completed or reopen them
+- Filter all, pending, and completed tasks
+- Live task statistics
+- Persistent browser storage
+- Responsive and accessible interface
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Tech stack
 
-Currently, two official plugins are available:
+- React 19
+- JavaScript (ES6+)
+- Vite
+- CSS3
+- Web Storage API
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Run locally
 
-## React Compiler
+```bash
+git clone https://github.com/juniorlummertz/Trabalho-01.git
+cd Trabalho-01
+npm install
+npm run dev
+```
 
-The React Compiler is not enabled on this template. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Open the local address shown by Vite in your browser.
 
-## Expanding the ESLint configuration
+## Production build
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```bash
+npm run build
+npm run preview
+```
+
+## What I practiced
+
+This project was created to practice component-based interfaces, React state, derived data, event handling, persistence, responsive design, and Git version control.
+
+## Author
+
+Marcio Junior Lummertz — Systems Analysis and Development student.
